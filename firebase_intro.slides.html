@@ -11945,6 +11945,7 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>點選 Database</p>
 <p><img src="img/firestore04.png" alt=""></p>
 
 </div>
@@ -12032,6 +12033,12 @@ a.anchor-link {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="&#26032;&#22686;&#36039;&#26009;">&#26032;&#22686;&#36039;&#26009;<a class="anchor-link" href="#&#26032;&#22686;&#36039;&#26009;">&#182;</a></h2><div class="highlight"><pre><span></span><span class="c1"># 建立文件必須給定集合名稱、文件id</span>
 <span class="c1"># 即使集合一開始不存在，都可以直接使用</span>
+<span class="c1"># 爬蟲獲得的 dict</span>
+<span class="n">doc</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;movie_title&quot;</span><span class="p">:</span> <span class="s2">&quot;La La Land&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;movie_genre&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;Comedy&quot;</span><span class="p">,</span> <span class="s2">&quot;Drama&quot;</span><span class="p">,</span> <span class="s2">&quot;Music&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;movie_rating&quot;</span><span class="p">:</span> <span class="mf">8.1</span>
+<span class="p">}</span>
 
 <span class="c1"># 語法</span>
 <span class="n">doc_ref</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">collection</span><span class="p">(</span><span class="s2">&quot;imdb_movies&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">document</span><span class="p">(</span><span class="s2">&quot;lalaland&quot;</span><span class="p">)</span>

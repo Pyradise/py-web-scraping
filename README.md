@@ -14,4 +14,4 @@ Py 與網站擷取引領學員使用 Python 處理文字、擷取網站資料並
 
 ### 錄影清單
 
-[Py 與網站擷取：5/15-5/25]()
+[Py 與網站擷取：5/15-5/25](https://www.youtube.com/playlist?list=PLEq7iw5uOtuUYeu-XwzLiNlopzk2yt4UD)
